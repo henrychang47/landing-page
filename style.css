@@ -20,14 +20,17 @@ body{
 
 .header ul{
   list-style: none;
-  text-decoration: none;
-  color: #e5e7eb;
   font-size: 18px;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+.header a{
+  color:#E5E7EB;
+  text-decoration: none;
 }
 
 .section1{
