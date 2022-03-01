@@ -111,3 +111,42 @@ body{
   max-width: 1000px;
   line-height: 50px;
 }
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 .blue-part{
+  background-color: #3882F6;
+  max-width: 950px;
+  height: 150px;
+  border-radius: 8px;
+  color: #F9FAF8;
+  flex:1;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+
+}
+
+.section4 button {
+  max-height: 50px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 4px;
+  border-color: #F9FAF8;
+  padding: 8px 40px;
+  font-size: 28px;
+}
+
+.section2,
+.section3{
+  height: 500px;
+}
+.section1,
+.section4{
+  height: 400px;
+}
