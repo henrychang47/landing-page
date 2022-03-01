@@ -74,6 +74,17 @@ body{
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
+  text-align: center;
+}
+.section2 .image-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section2 .image-box{
+  text-align: center;
+  max-width: 250px;
 }
 
 .section2 img{
